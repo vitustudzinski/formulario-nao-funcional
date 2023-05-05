@@ -1,0 +1,54 @@
+html, body {
+
+    background-image: url(imagens/fundo_3d.jpg);
+    background-size: cover;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.login{
+    width: 100%;
+    max-width: 400px;
+    height: 350px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+    background:#ffffff10;
+    border: 2px solid #ffffff30;
+
+    backdrop-filter:blur(10px);
+}
+
+input{
+    width: 90%;
+    height: 30%;
+    border-radius: 10px;
+    margin: 10px 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid #ffffff90;
+    background: #ffffff90;
+}
+
+input[type="submit"]{
+    background-image: linear-gradient(45deg, #611ec5, #a81dec, #eb3ed5, #f26f7d );
+    cursor: pointer;
+}
